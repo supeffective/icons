@@ -52,7 +52,7 @@
     "typelint": "tsc --noEmit --skipLibCheck",
     "version:bump": "pnpm exec changelogen --bump --release --push --${1:-patch}",
     "version:publish": "pnpm version:release",
-    "version:release": "git push --tags && npm publish --access=public"
+    "version:release": "npm publish --access=public"
   },
   "lint-staged": {
     "*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}": [
