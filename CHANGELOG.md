@@ -1,4 +1,17 @@
 
+## v0.8.5
+
+[compare changes](https://github.com/supeffective/icons/compare/v0.8.4...v0.8.5)
+
+### 🏡 Chore
+
+- Update versioning scripts ([a1a3648](https://github.com/supeffective/icons/commit/a1a3648))
+- Update versioning & QA scripts ([88d9cfd](https://github.com/supeffective/icons/commit/88d9cfd))
+
+### ❤️ Contributors
+
+- Javi Aguilar
+
 ## v0.8.4
 
 [compare changes](https://github.com/supeffective/icons/compare/v0.8.3...v0.8.4)
