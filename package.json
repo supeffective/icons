@@ -50,10 +50,9 @@
     "test:ci": "bun test --coverage --bail=5 --ci",
     "test:coverage": "bun test --coverage",
     "typelint": "tsc --noEmit --skipLibCheck",
-    "version:bump": "semver-release version:bump",
-    "version:publish": "semver-release version:release --tags --npm --filter '@supeffective/*'",
-    "version:publish-notes": "semver-release version:release --github",
-    "version:release": "pnpm version:publish"
+    "version:bump": "pnpm exec changelogen --bump --${1:-patch}",
+    "version:publish": "pnpm version:release",
+    "version:release": "git push --tags && npm publish --access=public"
   },
   "lint-staged": {
     "*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}": [
@@ -65,7 +64,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.3.3",
-    "@itsjavi/semver-release": "^0.7.2",
     "@supeffective/dataset": "^0.8.1",
     "@svgr/cli": "^8.1.0",
     "@types/jest": "^29.5.10",

@@ -8,9 +8,6 @@ devDependencies:
   '@biomejs/biome':
     specifier: 1.3.3
     version: 1.3.3
-  '@itsjavi/semver-release':
-    specifier: ^0.7.2
-    version: 0.7.2
   '@supeffective/dataset':
     specifier: ^0.8.1
     version: 0.8.1
@@ -538,17 +535,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /@itsjavi/semver-release@0.7.2:
-    resolution: {integrity: sha512-QNOieeIFoZT96yKhrQtnV80O7RsCclP6lFwHMI0Sf8BrFEK2D4TuIAaj+nIYGRQpal2CQjAXOLkB+pMIDNO18Q==}
-    hasBin: true
-    dependencies:
-      changelogen: 0.5.5
-      commander: 11.1.0
-      semver: 7.5.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
 
   /@jest/expect-utils@29.7.0:
     resolution: {integrity: sha512-GlsNBWiFQFCVi9QVSx7f5AgMeLxe9YCCs5PuP2O2LdjDAA8Jh9eX7lA1Jq/xdXw3Wb3hyvlFNfZIfcRetSzYcA==}
