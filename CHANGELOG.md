@@ -1,4 +1,16 @@
 
+## v0.8.6
+
+[compare changes](https://github.com/supeffective/icons/compare/v0.8.5...v0.8.6)
+
+### 🏡 Chore
+
+- Upgrade deps and fix postinstall ([3a8ebc6](https://github.com/supeffective/icons/commit/3a8ebc6))
+
+### ❤️ Contributors
+
+- Javi Aguilar
+
 ## v0.8.5
 
 [compare changes](https://github.com/supeffective/icons/compare/v0.8.4...v0.8.5)
